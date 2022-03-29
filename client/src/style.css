@@ -191,3 +191,9 @@ a {
     background-color: rgb(17, 160, 141);
     
 }
+
+.profilePic {
+    width: 100%;
+    height: 300px;
+    padding: 5%;
+}

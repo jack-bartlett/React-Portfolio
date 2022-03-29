@@ -1,10 +1,10 @@
 import React from 'react';
-// import GitHomies from '../Assets/Images/GitHomies.jpg';
-// import BitFit from '../Assets/Images/BitFit.jpg';
-// import PasswordGenerator from '../Assets/Images/PasswordGenerator.jpeg';
-// import EmployeeTracker from '../Assets/Images/EmployeeManagmentSystem.jpeg';
-// import NoteTaker from '..Assets/Images/NoteTaker.jpeg';
-// import ReadMeGenerator from '..Assets/Images/ReadMeGenerator.jpeg';
+import GitHomies from '../Assets/Images/GitHomies.jpg';
+import BitFit from '../Assets/Images/BitFit.jpg';
+import PasswordGenerator from '../Assets/Images/PasswordGenerator.jpg';
+import EmployeeTracker from '../Assets/Images/EmployeeManagmentSystem.jpg';
+import NoteTaker from '../Assets/Images/NoteTaker.jpg';
+import ReadMeGenerator from '../Assets/Images/ReadMeGenerator.jpg';
 import '../style.css'
 
 export default function Portfolio() {
@@ -48,7 +48,7 @@ export default function Portfolio() {
                   "work-item-image"
                 }
                   style={{
-                    backgroundImage: "url('Assets/Images/GitHomies.jpg')"
+                    backgroundImage: ` url(${GitHomies})`
                     
                   }}></div>
 
@@ -64,7 +64,7 @@ export default function Portfolio() {
               <div className={"work-item"}>
                 <div className={"work-item-image"}
                   style={{
-                    backgroundImage: "url(assets/Images/BitFit.jpg)"
+                    backgroundImage: ` url(${BitFit})`
                   }}>
                 </div>
                 <a href={
@@ -77,7 +77,7 @@ export default function Portfolio() {
 
               <div className={"work-item"}>
                 <div className={"work-item-image"}
-                  style={{ backgroundImage: "url(assets/Images/PasswordGenerator.jpg)" }}>
+                  style={{ backgroundImage: ` url(${PasswordGenerator})` }}>
                 </div>
                 <a href={
                   "https://github.com/jack-bartlett/Homework-03-Password-Generator"}>
@@ -86,7 +86,7 @@ export default function Portfolio() {
 
               <div className={"work-item"} >
                 <div className={"work-item-image"}
-                  style={{ backgroundImage: "url(assets/Images/EmployeeManagmentSystem.jpg)" }}>
+                  style={{ backgroundImage: ` url(${EmployeeTracker})` }}>
                 </div>
                 <a href={
                   "https://github.com/jack-bartlett/Employee-Tracker-SQL"}>
@@ -95,7 +95,7 @@ export default function Portfolio() {
 
               <div className={"work-item"} >
                 <div className={"work-item-image"}
-                  style={{ backgroundImage: "url(assets/Images/NoteTaker.jpg)" }}>
+                  style={{ backgroundImage: ` url(${NoteTaker})` }}>
                 </div>
                 <a href={
                   "https://github.com/jack-bartlett/Note-Taker-Express.js"}>
@@ -103,8 +103,8 @@ export default function Portfolio() {
               </div>
 
               <div className={"work-item"} >
-                <div className={"work-item-image"}
-                  style={{ backgroundImage: "url(assets/Images/ReadMeGenerator.jpg)" }}>
+                <div className="work-item-image"
+                  style={{ backgroundImage: ` url(${ReadMeGenerator})` }}>
                 </div>
                 <a href={
                   "https://github.com/jack-bartlett/README-Generator-NodeJs.js"}>
@@ -115,17 +115,9 @@ export default function Portfolio() {
           </td>
         </tr>
       </table>
+       {/* <img className="portfolioImg" src={ReadMeGenerator} alt="project screenshot"></img>  */}
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        
       </p>
     </div>
   );
