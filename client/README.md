@@ -25,7 +25,7 @@ React-Portfolio
 A Developer Portfolio Created with React
 
 ## Installation
-npx create react app
+npx create react app. This app is deployed on heroku @ https://jack-bartlett-react-portfolio.herokuapp.com/
 
 ## Usage 
 npm install, npm start
