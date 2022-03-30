@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from '../Assets/Images/JackStudioAMidi.jpg';
+import ProfilePic from '../Assets/Images/ColePic.jpg';
 // import GitHomies from '../Assets/Images/GitHomies.jpg';
 export default function AboutMe() {
   return (
@@ -31,7 +31,8 @@ export default function AboutMe() {
           </td>
 
           <td style={{
-            padding: '1%'
+            padding: '1%',
+            margin: '20%'
           }}>
 
             Multidisciplinary Engineer: Full Stack Web Developer focused on Back-End technologies. Grammy Award winning, multi-platinum audio engineer.
