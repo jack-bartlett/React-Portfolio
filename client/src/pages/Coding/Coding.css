@@ -1,0 +1,217 @@
+.webDevPage {
+    background-color: #f6f6f6;
+}
+.devCardHeader {
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.devText {
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.devCardStuff {
+    display: inline-block;
+    width: 50%;
+    padding: 100px 0;
+}
+
+.devCardImage {
+    width: 30%;
+    border: 1px rgb(0, 0, 0, .75) solid !important;
+    float: left;
+    margin-right: 100px;
+    border-radius: 0;
+}
+
+.devCardImage:hover {
+
+}
+
+.devCards {
+    margin: 20px;
+}
+
+.project:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.project {
+    float: left !important;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 4px black solid;
+    margin: 30px 10px 5px 5px;
+    padding: 8px;
+    border-radius: none;
+}
+
+@media (min-width: 320px) {
+    .devCardHeader {
+        display: inline-block;
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devCardStuff {
+        display: inline-block;
+        width: 80%;
+        padding: 10px 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 80%;
+
+    }
+    .devCards{
+        margin-left: 0;
+    }
+    .project{
+        font-size: 14px;
+        margin: 15px 10px 0px 0px;
+    }
+}
+
+@media (min-width: 480px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 80%;
+        padding: 10px 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 80%;
+    }
+    
+}
+
+@media (min-width: 600px) {
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .devCardStuff {
+        display: inline-block;
+        width: 40%;
+    }
+    
+    .devCardImage {
+        float: left;
+        width: 40%;
+    }
+    .devCards{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 40%;
+        padding: 25px 0;
+    }
+
+    .project{
+        float: left !important;
+        font-size: 15px;
+        margin: 15px 10px 0px 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 49.3%;
+        padding: 25px 0
+    }
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1200px) {
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 28px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+    }
+    
+    .devCardDeck {
+        display: flex;
+    }
+    
+    .devCardStuff {
+        display: inline-block;
+        width: 40%;
+        padding: 5% 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 30%;
+        margin-right: 100px;
+    }
+    
+    .devCards {
+        margin: 20px;
+    }
+}
+

@@ -1,0 +1,115 @@
+
+.resume, .skills {
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.resumeTitle, .companyName, .description, .jobTitle, .duration {
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.resumePage {
+    background-color:black;
+}
+
+.resumeTitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color:black;
+    background-color: white;
+    padding: 5px 11px 5px 11px;
+}
+
+.companyName {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+    text-decoration: underline;
+}
+
+.description {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+    margin: 3px 15px 10px;
+
+}
+
+.duration {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: .5px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.skillList {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    line-height: 30px;
+    text-align: left;
+}
+
+.logo {
+height: 25px;
+width: 25px;
+margin: 7px 15px 7px 0px;
+}
+
+.fa-ul {
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+.fab {
+    color: white;
+    margin-right: 6px;
+}
+
+
+
+
+@media (min-width: 320px) {
+    .resumeTitle{
+        font-size: 15px;
+    }
+
+    .companyName{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .jobTitle{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .resumeTitle{
+        font-size: 35px;
+    }
+    .companyName{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 18px;
+    }
+}
+

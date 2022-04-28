@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {  
+    background: url(../../backgroundImages/Revenge_sessions_5.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    height: auto;
+    max-width: 100%;
+    scroll-behavior: smooth;
+  } 
+  
+  /* @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+  }
+    */
+  
+  /* 
+  .homeTextDiv {
+      display: inline-block;
+      top: 225px;
+      width: 100%;
+      
+  } */
+  
+  .leftside{
+    background: transparent;
+  }
+  
+  .homeText {
+      text-align: center;
+      font-family: 'Barlow', sans-serif;
+      font-size: 24px;
+      font-weight: bolder;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      line-height: 30px;
+      text-align: left;
+      padding-top: 25px;
+  }
+  
+  .homeIntro {
+      margin: auto;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 28px;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: white;
+  }
+  /* Galaxy Fold */
+  @media (min-width: 280px) {
+    body{
+      background-position: top 35px;
+    }
+
+  .homeCard-body {margin-left: 38%;
+                  /* margin-right: 1%; */
+                  margin-top: 50px;
+  }
+  .homeTextDiv {text-align: left;
+                width: 100%; 
+  }
+  .homeTitle {font-size: 15px;
+    text-align: center;
+    width: 100%;
+
+  }
+  .homeText {font-size: 15px;
+              line-height: 20px;}
+}
+
+/* Min height 320 */
+      @media (min-width: 320px) {
+        body{
+          background-position: top 35px;
+        }
+  
+      .homeCard-body {margin-left: 35%;
+                      /* margin-right: 1%; */
+                      margin-top: 50px;
+      }
+      .homeTextDiv {text-align: left;
+                    width: 100%; 
+      }
+      .homeTitle {font-size: 15px;
+        text-align: center;
+        width: 100%;
+  
+      }
+      .homeText {font-size: 15px;
+                  line-height: 20px;}
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media (min-width: 480px) {
+        /* background: url(../../backgroundImages/Revenge_sessions_5_480pxwidth.jpg) no-repeat fixed;} */
+        
+      .homeCard-body {margin-left: 35%;
+                  margin-top: 50px;
+      }
+      .homeTextDiv {text-align: left;
+                width: 100%; 
+      }
+      .homeTitle {font-size: 25px;
+        text-align: center;
+  
+      }
+      .homeText {font-size: 15px;
+              line-height: 20px;}
+    } 
+  
+    @media only screen and (min-width: 600px) {
+      body{
+        background-position: top 65px left 10px;
+      }
+    .homeCard-body {
+      margin-left:30%;
+      margin-top: 50px;
+    }
+    .homeTextDiv {text-align: left;
+              width: 90%; 
+    }
+    .homeTitle {font-size: 28px;
+      text-align: center;
+  
+    }
+    .homeText {font-size: 15px;
+            line-height: 20px;}
+  } 
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+      @media (min-width: 768px) {
+  .homeCard-body{
+    margin-left: 25%;
+    margin-top: 50px;
+  }
+  .homeTextDiv {
+    top: 205px;
+    width: 100%;
+  }
+  .homeTitle {
+    font-size: 25px;
+    text-align: center;
+  
+  }
+  .homeText {
+    font-size: 15px;
+  }
+      
+    }  
+
+    @media (min-width: 995px) {
+      .homeCard-body{
+        margin-left: 10%;
+        margin-top: 50px;
+      }
+      .homeTextDiv {
+        top: 205px;
+        width: 100%;
+      }
+      .homeTitle {
+        font-size: 25px;
+        text-align: center;
+      
+      }
+      .homeText {
+        font-size: 15px;
+      }
+          
+        }  
+    
+    /*  Large devices (laptops/desktops, 992px and up) */
+      @media (min-width: 1024px) {
+        .homeCard-body{
+          margin-left: 10%;
+          margin-top: 50px;
+        }
+        .homeTextDiv {
+          width: 100%;
+        }
+        .homeTitle {
+          font-size: 30px;
+          text-align: center;
+        
+        }
+        .homeText {
+          font-size: 15px;
+          /* line-height: 30px; */
+        }
+    }  
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+      @media(min-width: 1200px) {
+        .homeCard-body{
+          margin-left: 15%;
+          margin-top: 10px;
+        }
+        .homeTextDiv {
+          padding-top: 55px;
+          width: 90%;
+        }
+        .homeTitle {
+          font-size: 40px;
+        
+        }
+        .homeText {
+          font-size: 18px;
+          font-weight: 600;
+        }
+    }  

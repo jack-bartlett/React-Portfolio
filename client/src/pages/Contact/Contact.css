@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.email-window {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+    font-size: large;
+    background-color: white;
+}
+
+.email-container {
+    padding: 2rem 0 3rem 0;
+    margin: 3em auto;
+}
+
+.email-bg-pic {
+    background: transparent;
+}
+
+
+.helllo {
+    margin: auto;
+    width: 50% ;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: solid;
+    /* border-color: black; */
+    font-size: 30px;
+} 
+
+.emailText {
+    margin: 35px auto 5px auto;
+    text-align: center;
+    width: 50%;
+    /* font-family: 'Barlow', sans-serif; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black;
+    font-size: 20px;
+} 
+
+.btn-email-send {
+    background-color: grey !important;
+    color: white!important;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
+    border: none !important;
+    margin: 5px;
+}
+
+.btn-email-send:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
