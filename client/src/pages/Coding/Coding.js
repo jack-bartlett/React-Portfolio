@@ -9,7 +9,7 @@ import "../Coding/Coding.css";
 import data from "../../components/WebDevData/webdev"
 import Footer from "../../components/Footer";
 import Loading from "../../components/loading";
-import EmployeeManagementSystem from "../../EmployeeManagmentSystem.jpg";
+// import EmployeeManagementSystem from "../../EmployeeManagmentSystem.jpg";
 
 
 const WebDev = () => {
